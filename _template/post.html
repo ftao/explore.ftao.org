@@ -11,27 +11,23 @@
 
 
 {% block content %}
-
-<h1 class="article-title">
+<div class="post">
+  <h2 class="post-title">
     <a href="{{content_url(post.slug)}}" rel="self">{{post.title}}</a>
-</h1>
-
-<div class="article">
-    <div class="article-content">
-        {{ post.content }}
-    </div>
-</div>
-
-<div class="article-meta">
-    <div class="article-time">
-    Posted: <time datetime="{{post.date}}">{{post.date.strftime("%a, %b %d, %Y")}}</time>
-    </div>
-    <div class="article-tags">
-    Tagged:
+  </h2>
+  <div class="post-time">
+    <time datetime="{{post.date}}">{{post.date.strftime("%b %d, %Y")}}</time>
+  </div>
+  <div class="post-content">
+    {{ post.content }}
+  </div>
+  <div class="post-tags">
+    Tags:
     {% for tag in post.get('tags', []) %}
     <a href="{{content_url('tag', tag)}}" class="tag" rel="tag">{{tag}}</a>
     {% endfor %}
-    </div>
+  </div>
 </div>
 
+{% include "include/disqus.html" %}
 {% endblock %}

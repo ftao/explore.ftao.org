@@ -1,12 +1,29 @@
 /* Put your styles here */
 body {
-    padding-top:40px;
-}
-#top {
-    margin-top:10px;
+  padding-top:40px;
 }
 
-h1.article-title a {
-    color: #404040;
-    text-decoration:none;
+#top {
+  margin-top:10px;
 }
+
+h2.post-title a{
+  color: #404040;
+  text-decoration:none;
+}
+
+h2.post-title {
+  border-bottom:1px solid #ccc;
+}
+
+div.post-time {
+  color: #AAAAAA;
+  font-size:90%;
+  padding:2px 0;
+}
+
+div.post-content {
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
