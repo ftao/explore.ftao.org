@@ -5,8 +5,59 @@
     
     <link href="http://explore.ftao.org" />
     
-    <updated>2011-12-09T16:19:50Z</updated>
+    <updated>2011-12-09T18:40:45Z</updated>
     <id>http://explore.ftao.org</id>
+    <entry>
+        <title type="html"><![CDATA[<cite>Read</cite> Incoming Email]]></title>
+        <author><name>Neal Tao</name><uri>http://explore.ftao.org</uri></author>
+        <link href="http://explore.ftao.org/incoming-email.html"/>
+        <updated>2011-12-09T00:00:00Z</updated>
+        <published>2011-12-09T00:00:00Z</published>
+        <id>http://explore.ftao.org/incoming-email.html</id>
+        <category scheme="http://explore.ftao.org/tag/email/" term="email" label="Email" />
+        <category scheme="http://explore.ftao.org/tag/api/" term="api" label="Api" />
+        <category scheme="http://explore.ftao.org/tag/http/" term="http" label="Http" />
+        <content type="html" xml:base="http://explore.ftao.org" xml:lang="en">
+            <![CDATA[ <p>Jamie Zawinski 说:</p>
+<pre class="literal-block">
+Every program attempts to expand until it can read mail. Those programs which cannot so expand are replaced by ones which can.
+</pre>
+<p>互联网上, 大家都会 <cite>Write</cite> Email （注册邮件,找回密码邮件,广告邮件), 但是能够 <cite>Read</cite> 邮件的应用就少多了。</p>
+<p>当然我们还是可以找到不少支持 <cite>Read</cite> 邮件的应用的:</p>
+<ul class="simple">
+<li>邮件列表 - 通过发送邮件来订阅或退订</li>
+<li>Ticket系统 - 通过发送邮件来回复Ticket, 关闭Ticket等.</li>
+<li>Kindle - 通过附件方式发送文件的方式传输文件到Kindle</li>
+<li>Google Doc / Evernote 等 - 通过发送内容到特定到邮件地址来保存文件或笔记</li>
+</ul>
+<p>但是相对于编写处理HTTP请求的脚本，要编写一个可以 <cite>Read</cite> Email 的Web应用并不轻松。</p>
+<ul class="simple">
+<li>架设一个Email服务器要比架设一个Web服务器复杂多了</li>
+<li>解析Email 并不容易</li>
+</ul>
+<p>我们是如此的乐于和善于使用HTTP, 解决这个问题最佳的方案当然是将Email转换成HTTP协议。</p>
+<p>比如说下面这些服务:</p>
+<ul class="simple">
+<li>cloundmailin <a class="reference external" href="http://cloudmailin.com/">http://cloudmailin.com/</a></li>
+<li>mailgun  <a class="reference external" href="http://mailgun.net">http://mailgun.net</a></li>
+<li>Email Yak <a class="reference external" href="http://www.emailyak.com/">http://www.emailyak.com/</a></li>
+</ul>
+<p>这三个服务都支持接受和解析Email然后通过HTTP 协议将邮件的内容POST到你的Web应用中。</p>
+<blockquote>
+User Send Email --&gt; Email Server --&gt; Your Web App</blockquote>
+<p>这三个服务我首先发现的是cloudmailin, 之后看见dotcloud 在推荐mailgun, 而Email Yak 是前几天在
+<a class="reference external" href="https://news.ycombinator.com/item?id=3325330">Hacker News</a> 看到的.</p>
+<p>有了这些服务，我们不需要架设Email服务器就让应用可以支持 <cite>Read</cite> Email了.</p>
+<p>比如说我们就可以:</p>
+<ul class="simple">
+<li>通过Email接受报表数据, 解析后保存到数据库就可以做历史趋势的统计了</li>
+<li>通过Email来完成注册,找回密码等等常见操作。</li>
+<li>更多...</li>
+</ul>
+<p>最后如果你对这些第三方服务不信任，一定要在自己的机器上接受并解析Email, <a class="reference external" href="http://lamsonproject.org">lamsonproject</a> 可能是一个不错的选择.</p>
+ ]]>
+        </content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[新的开始]]></title>
         <author><name>Neal Tao</name><uri>http://explore.ftao.org</uri></author>
