@@ -23,10 +23,12 @@
 
     
     <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+    <!--
     <link rel="shortcut icon" href="/static/img/favicon.ico">
     <link rel="apple-touch-icon" href="/static/img/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/static/img/appleimgim-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="/static/img/apple-touch-icon-114x114.png">
+    -->
     
     
     
@@ -100,16 +102,18 @@
     <![endif]-->
 
     
-    <!-- asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet -->
-<script>
-    var _gaq = [['_setAccount', ''], ['_trackPageview']];
-    (function(d, t) {
-    var g = d.createElement(t),
-        s = d.getElementsByTagName(t)[0];
-    g.async = true;
-    g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g, s);
-    })(document, 'script');
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27610157-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
 </script>
     
 
