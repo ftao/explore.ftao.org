@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block title %}{{context.sitename}} - {{title|capitalize}}{% endblock %}
+
+{% block content %}
+<div class="home-article-list">
+  {% for post in pager.posts %}
+    <div class="article home-article">
+      <h2 class="article-title">
+          <a href="{{content_url(post.slug)}}" rel="self">{{post.title}}</a>
+      </h2>
+      <div class="article">
+          <div class="article-content">
+              {{ post.content }}
+          </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+{% if pager.pages > 1 %}
+<div id="pagination">
+    {% if pager.prev %}
+    <a class="prev" href="{{ content_url(pager.folder, pager.sub_folder, pager.prev) }}">«Prev</a>
+    {% else %}
+    <span class="prev">«Prev</span>
+    {% endif %}
+    <span class="fn-current">{{pager.page}}</span>
+    {% if pager.next %}
+    <a class="next" href="{{ content_url(pager.folder, pager.sub_folder, pager.next) }}">Next»</a>
+    {% else %}
+    <span class="next">Next»</span>
+    {% endif %}
+</div>
+{% endif %}
+{% endblock %}
