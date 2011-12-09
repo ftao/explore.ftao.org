@@ -3,6 +3,6 @@ html:
 	liquidluck 
 
 publish: 
-	cd deploy;git add *; git commit -a -m 'new version'; git push;
+	cd deploy;git add *; git commit -a -m 'new version'; git push origin gh-pages;
 
 
