@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Explore</title>
+    <link href="http://explore.ftao.org/feed.xml" rel="self" />
+    
+    <link href="http://explore.ftao.org" />
+    
+    <updated>2011-12-09T14:10:18Z</updated>
+    <id>http://explore.ftao.org</id>
+    <entry>
+        <title type="html"><![CDATA[新的开始]]></title>
+        <author><name>Neal Tao</name><uri>http://explore.ftao.org</uri></author>
+        <link href="http://explore.ftao.org/start.html"/>
+        <updated>2011-12-09T00:00:00Z</updated>
+        <published>2011-12-09T00:00:00Z</published>
+        <id>http://explore.ftao.org/start.html</id>
+        <category scheme="http://explore.ftao.org/tag/explore/" term="explore" label="Explore" />
+        <category scheme="http://explore.ftao.org/tag/start/" term="start" label="Start" />
+        <content type="html" xml:base="http://explore.ftao.org" xml:lang="en">
+            <![CDATA[ <p>对信息的消费太多，创造太少 - 这是我现在的状态。
+这个站点 <a class="reference external" href="http://explore.ftao.org">http://explore.ftao.org</a> 是我为了改变这个状态而做的一个尝试。</p>
+<p>我会在这里分享:</p>
+<blockquote>
+<ul class="simple">
+<li>有趣/有用的网络服务</li>
+<li>有趣的开源项目</li>
+<li>有价值的书籍和资料</li>
+<li>其他我所关心的东西</li>
+</ul>
+</blockquote>
+<p>-EOF-</p>
+ ]]>
+        </content>
+    </entry>
+    </feed>
