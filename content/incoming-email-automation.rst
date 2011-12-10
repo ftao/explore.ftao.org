@@ -7,9 +7,9 @@ Incoming Email Automation
     - api
     - saas
 
-Jamie Zawinski 说: ::
+Jamie Zawinski 说::
 
-   Every program attempts to expand until it can read mail. Those programs which cannot so expand are replaced by ones which can.
+  >> Every program attempts to expand until it can read mail. Those programs which cannot so expand are replaced by ones which can.
 
 互联网上, 大家都会 ``Write`` Email （注册邮件,找回密码邮件,广告邮件), 但是能够 ``Read`` 邮件的应用就少多了。
 
