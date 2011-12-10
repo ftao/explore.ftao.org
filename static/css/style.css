@@ -27,3 +27,16 @@ div.post-content {
   margin-bottom:10px;
 }
 
+
+table.footnote td {
+    border:none;
+    padding:0;
+}
+table.footnote td.label {
+    width:25px;
+    background-color:#fff;
+    border:none;
+    border-radius:0;
+    -webkit-border-radius: 0;
+    -moz-border-radius:0;
+}
