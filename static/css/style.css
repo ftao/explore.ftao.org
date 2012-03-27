@@ -1,4 +1,11 @@
 /* Put your styles here */
+
+footer {
+  margin-top: 17px;
+  padding-top: 17px;
+  border-top: 1px solid #EEE;
+}
+
 body {
   padding-top:40px;
 }

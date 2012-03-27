@@ -5,8 +5,63 @@
     
     <link href="http://explore.ftao.org" />
     
-    <updated>2011-12-10T22:52:09Z</updated>
+    <updated>2012-03-27T20:18:17Z</updated>
     <id>http://explore.ftao.org</id>
+    <entry>
+        <title type="html"><![CDATA[PyCon US 2012 演讲推荐]]></title>
+        <author><name>Neal Tao</name><uri>http://explore.ftao.org</uri></author>
+        <link href="http://explore.ftao.org/pycon-us-2012.html"/>
+        <updated>2012-03-27T00:00:00Z</updated>
+        <published>2012-03-27T00:00:00Z</published>
+        <id>http://explore.ftao.org/pycon-us-2012.html</id>
+        <category scheme="http://explore.ftao.org/tag/python/" term="python" label="Python" />
+        <category scheme="http://explore.ftao.org/tag/pycon/" term="pycon" label="Pycon" />
+        <category scheme="http://explore.ftao.org/tag/video/" term="video" label="Video" />
+        <content type="html" xml:base="http://explore.ftao.org" xml:lang="en">
+            <![CDATA[ <p>PyCon US 2012 刚刚在3月15结束。前几天看了不少相关的视频,有不少有趣和有启发意义的演讲。在这里分享一下。
+从各个领域的演讲的数目可以看到Python 在科学计算，数据分析，机器人，Web开发等应用很多,当然关于Python 语言实现,特性,社区建设等内容也很大一部分。</p>
+<p>下面推荐几个我感兴趣的演讲.</p>
+<ol class="arabic">
+<li><p class="first">Keynote: Paul Graham, YCombinator</p>
+<p>Paul Graham 讲 7 Biggest Startup Ideas, 非常有启发。
+Paul 的演讲风格也风趣。</p>
+<p>链接: <a class="reference external" href="http://pyvideo.org/video/626/keynote-paul-graham-ycombinator">http://pyvideo.org/video/626/keynote-paul-graham-ycombinator</a></p>
+</li>
+<li><p class="first">David Beazley 的关于PyPy 的KeyNote</p>
+<p>非PyPy 开发者介绍PyPy的KeyNote</p>
+<p>链接: <a class="reference external" href="http://pyvideo.org/video/659/keynote-david-beazley">http://pyvideo.org/video/659/keynote-david-beazley</a></p>
+</li>
+<li><p class="first">Build reliable, traceable, distributed systems with ZeroMQ</p>
+<p>这是一个DotCloud 的工程师做的关于ZeroRPC的演讲.
+DotCloud 的产品我很喜欢。ZeroMQ 也是我最近专注的一个技术。
+这个演讲介绍了ZeroRPC (ZeroMQ based RPC) ，他们整个服务的基础架构。</p>
+<p>链接: <a class="reference external" href="http://pyvideo.org/video/639/build-reliable-traceable-distributed-systems-wi">http://pyvideo.org/video/639/build-reliable-traceable-distributed-systems-wi</a></p>
+</li>
+<li><p class="first">玩Angry Birds 的机器人</p>
+<p>演讲者是Selenium 这个Web测试工具的作者和一个域名收集控。</p>
+<p>链接: <a class="reference external" href="http://pyvideo.org/video/737/37-building-a-robot-that-can-play-angry-birds-on">http://pyvideo.org/video/737/37-building-a-robot-that-can-play-angry-birds-on</a></p>
+<p>这个PyCon 还有不少关于机器人的演讲，都值得一看,涉及OpenCV, Arduino, Lego, Kinect 等关键词。</p>
+</li>
+<li><p class="first">Decorators and Context Managers</p>
+<p>非常简单易懂的一个演讲，不过正好填补我对Context Managers 的理解。</p>
+<p>链接: <a class="reference external" href="http://pyvideo.org/video/883/decorators-and-context-managers">http://pyvideo.org/video/883/decorators-and-context-managers</a></p>
+</li>
+<li><p class="first">Data, Design, Meaning</p>
+<p>演讲者是Idan Gazit, 似乎是Django 的核心开发者和设计师。
+讲设计的一个演讲，耳目一新。</p>
+<p>链接: <a class="reference external" href="http://pyvideo.org/video/637/data-design-meaning">http://pyvideo.org/video/637/data-design-meaning</a></p>
+</li>
+<li><p class="first">Sketching a Better Product</p>
+<p>又是Idan Gazit 做的一个演讲，关于 Sketch 的.</p>
+<p>链接: <a class="reference external" href="http://pyvideo.org/video/957/sketching-a-better-product">http://pyvideo.org/video/957/sketching-a-better-product</a></p>
+</li>
+</ol>
+<p>最后给出几个辅助工具。</p>
+<p>所有的视频都可以在下面 <a class="reference external" href="http://pyvideo.org/category/17/pycon-us-2012">pyvidoe.org</a> 这个网站找到,每个视频都有介绍和Youtube 链接。</p>
+<p>然后你可以利用下面Gist 去下载所有的视频 <a class="reference external" href="https://gist.github.com/2068455">download_py2012_video.gist</a> 。</p>
+ ]]>
+        </content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Email 发送服务]]></title>
         <author><name>Neal Tao</name><uri>http://explore.ftao.org</uri></author>
@@ -27,11 +82,11 @@
 <h2>邮件发送服务不完全列表</h2>
 <table border="1" class="docutils">
 <colgroup>
-<col width="25%" />
-<col width="13%" />
-<col width="13%" />
-<col width="29%" />
-<col width="19%" />
+<col width="23%" />
+<col width="20%" />
+<col width="12%" />
+<col width="27%" />
+<col width="18%" />
 </colgroup>
 <thead valign="bottom">
 <tr><th class="head">服务</th>
@@ -43,9 +98,9 @@
 </thead>
 <tbody valign="top">
 <tr><td><a class="reference external" href="http://aws.amazon.com/ses/">Amazon SES</a></td>
-<td>否</td>
+<td>是 <a class="footnote-reference" href="#ses-smtp" id="id2">[1]</a></td>
 <td>是</td>
-<td>部分支持 <a class="footnote-reference" href="#ses-att" id="id2">[1]</a></td>
+<td>部分支持 <a class="footnote-reference" href="#ses-att" id="id3">[2]</a></td>
 <td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference external" href="http://sendgrid.com">SendGrid</a></td>
@@ -98,19 +153,20 @@
 </tr>
 </tbody>
 </table>
+<table class="docutils footnote" frame="void" id="ses-smtp" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id2">[1]</a></td><td>Amazon SES 从2011年12月16日开始支持SMTP协议.</td></tr>
+</tbody>
+</table>
 <table class="docutils footnote" frame="void" id="ses-att" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id2">[1]</a></td><td>Amazon SES 只支持一些 <a class="reference external" href="http://docs.amazonwebservices.com/ses/latest/DeveloperGuide/index.html?AppendixMIME.html">特定类型</a> 的文件作为附件.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id3">[2]</a></td><td>Amazon SES 只支持一些 <a class="reference external" href="http://docs.amazonwebservices.com/ses/latest/DeveloperGuide/index.html?AppendixMIME.html">特定类型</a> 的文件作为附件.</td></tr>
 </tbody>
 </table>
 <p>你的应用可以通过连接它们的SMTP Relay 或者HTTP API的方式,通过他们的平台发送邮件.</p>
-<p>除了Amazon SES, 其他的服务都提供了SMTP 接口, 现有的应用程序一般都不用修改，只需将邮件服务器地址改成他们提供的服务器就可以了.</p>
-<p>对于Amazon SES, 你有两个方案</p>
-<ul class="simple">
-<li>直接在应用程序中调用SES 的Web Service</li>
-<li>配置本地SMTP服务器通过Amazon SES 的脚本来发送邮件, 在应用中连接本地的SMTP服务器</li>
-</ul>
+<p>这些服务都提供了SMTP 接口, 现有的应用程序一般都不用修改，只需将邮件服务器地址改成他们提供的服务器就可以了.</p>
 <p>这些服务,我实际使用的有 Amazon SES 和 SendGrid. 从我的经验来看，使用都不复杂, 价格也不贵, 比维护自己的SMTP服务器成本低多了.</p>
 <p>参考资料:</p>
 <ul class="simple">
