@@ -17,19 +17,19 @@ Email 发送服务
 邮件发送服务不完全列表
 -----------------------------
 
-=================  =========   =========  ====================  =============
-服务               支持SMTP    支持API    支持附件              免费额度     
-=================  =========   =========  ====================  =============
-`Amazon SES`_      否          是         部分支持 [#ses_att]_   
-`SendGrid`_        是          是         支持                  200封/天
-`Elastic Email`_   是          是         支持                  1000封
-`PostmarkApp`_     是          是         支持                  1000封
-`CritSend`_        是          否         支持                  1000封
-`MailGun`_         是          是         支持                  200封/天
-`MailJet`_         是          否         支持                  200封/天
-`SocketLabs`_      是          否         支持                  500封/月
-`Dyn Email`_       是          否         支持                  
-=================  =========   =========  ====================  =============
+=================  ===============  =========  ====================  =============
+服务               支持SMTP         支持API    支持附件              免费额度     
+=================  ===============  =========  ====================  =============
+`Amazon SES`_      是 [#ses_smtp]_  是         部分支持 [#ses_att]_   
+`SendGrid`_        是               是         支持                  200封/天
+`Elastic Email`_   是               是         支持                  1000封
+`PostmarkApp`_     是               是         支持                  1000封
+`CritSend`_        是               否         支持                  1000封
+`MailGun`_         是               是         支持                  200封/天
+`MailJet`_         是               否         支持                  200封/天
+`SocketLabs`_      是               否         支持                  500封/月
+`Dyn Email`_       是               否         支持                  
+=================  ===============  =========  ====================  =============
 
 .. _Amazon SES: http://aws.amazon.com/ses/
 .. _SendGrid: http://sendgrid.com
@@ -40,18 +40,14 @@ Email 发送服务
 .. _MailJet: http://www.mailjet.com/
 .. _SocketLabs: http://socketlabs.com/
 .. _Dyn Email: http://dyn.com/email/
+.. [#ses_smtp] Amazon SES 从2011年12月16日开始支持SMTP协议.
 .. [#ses_att] Amazon SES 只支持一些 `特定类型 <http://docs.amazonwebservices.com/ses/latest/DeveloperGuide/index.html?AppendixMIME.html>`_ 的文件作为附件.
+
 
 
 你的应用可以通过连接它们的SMTP Relay 或者HTTP API的方式,通过他们的平台发送邮件.
 
-除了Amazon SES, 其他的服务都提供了SMTP 接口, 现有的应用程序一般都不用修改，只需将邮件服务器地址改成他们提供的服务器就可以了.
-
-对于Amazon SES, 你有两个方案
-
-* 直接在应用程序中调用SES 的Web Service
-* 配置本地SMTP服务器通过Amazon SES 的脚本来发送邮件, 在应用中连接本地的SMTP服务器
-
+这些服务都提供了SMTP 接口, 现有的应用程序一般都不用修改，只需将邮件服务器地址改成他们提供的服务器就可以了.
 
 这些服务,我实际使用的有 Amazon SES 和 SendGrid. 从我的经验来看，使用都不复杂, 价格也不贵, 比维护自己的SMTP服务器成本低多了.
 
