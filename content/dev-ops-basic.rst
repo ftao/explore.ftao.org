@@ -29,9 +29,9 @@ Tool                 特性                      备注
 =================  ========================  ==================== 
 `Chef`_     
 `Puppet`_     
-`Ansible`_     
+`Ansible`_   
 =================  ========================  ==================== 
 
 .. _Chef: https://www.chef.io/
 .. _Puppet: http://puppetlabs.com/
-.. _Ansbile: http://www.ansible.com/
+.. _Ansible: http://www.ansible.com/
