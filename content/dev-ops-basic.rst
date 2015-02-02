@@ -19,13 +19,21 @@ DevOps Basic
   DevOps acknowledges the interdependence of software development and IT operations. 
   It aims to help an organization rapidly produce software products and services and to improve operations performance - quality assurance.
 
+How Dev Helps Ops ? 
+---------------------------------------
+那些软件开发的概念被应用到运维中？
+
+be more fundamental to making good automation principles: idempotency.
+
+1. Version Control 
+2. Idempotency
 
 
 Configuration Management Software
 ---------------------------------------
 
 =================  ========================  ==================== 
-Tool                 特性                      备注      
+Tool               Star/Contributor          备注      
 =================  ========================  ==================== 
 `Chef`_     
 `Puppet`_     
