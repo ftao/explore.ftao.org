@@ -4,7 +4,6 @@ DevOps Basic
 :date: 2015-02-02
 :tags:
     - DevOps
-    - CI
 
 
 这篇文章总结一下 DevOps 相关的知识和工具等等。  
@@ -18,6 +17,20 @@ DevOps Basic
   between software developers and other information-technology (IT) professionals.
   DevOps acknowledges the interdependence of software development and IT operations. 
   It aims to help an organization rapidly produce software products and services and to improve operations performance - quality assurance.
+  - Wikipedia 
+or 
+
+  DevOps is the practice of operations and development engineers participating together in the entire service lifecycle,
+  from design through the development process to production support.
+
+  - http://theagileadmin.com/what-is-devops/ 
+
+  
+DevOps Principles
+----------------------
+
+DevOps Methods
+-----------------------
 
 How Dev Helps Ops ? 
 ---------------------------------------
@@ -25,12 +38,22 @@ How Dev Helps Ops ?
 
 be more fundamental to making good automation principles: idempotency.
 
-1. Version Control 
-2. Idempotency
+0. Infrastructure as code
+1. Automation 
+2. Version Control 
 
 
-Configuration Management Software
----------------------------------------
+Tools
+----------------------
+
+Release Management 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+CI / Test 
+Tool / Service  
+
+
+Configuration Management 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 =================  ========================  ==================== 
 Tool               Star/Contributor          备注      
@@ -43,3 +66,9 @@ Tool               Star/Contributor          备注
 .. _Chef: https://www.chef.io/
 .. _Puppet: http://puppetlabs.com/
 .. _Ansible: http://www.ansible.com/
+
+Provisioning
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Monitoring / Control / Orchestration
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
