@@ -6,6 +6,9 @@
 下面这个视频中， IPFS 的创始人讲述了他们开发IPFS 的动机。也是现在的WWW 的问题。 
 https://youtu.be/skMTdSEaCtA
 
+我们先来回顾一下现在Web应用的工作方式， 举个例子：
+Online Markdown Editor ? 
+
 主要有五个方面的问题:
 1. 带宽
 2. 延时
