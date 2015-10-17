@@ -8,6 +8,8 @@ https://youtu.be/skMTdSEaCtA
 
 我们先来回顾一下现在Web应用的工作方式， 举个例子：
 Online Markdown Editor ? 
+客户端就是客户端， 服务器就是服务器。 
+
 
 主要有五个方面的问题:
 1. 带宽
