@@ -6,8 +6,9 @@ HTTPS 的历史
 --------------
 这里 *https* 泛指访问 https://exmaple.com 这个样的网站的时候加密算法和协议。 
 
-* 1994年，`Taher Elgamal <https://en.wikipedia.org/wiki/Taher_Elgamal>`_  (at Netscape)开发了 SSL (Secure Sockets Layer) 的算法，HTTPS 就是封装在 SSL 内部的HTTP 。
-* 199x,  S-HTTP,  Spyglass公司， 在 HTTP 协议内部的加密  
+* 1994年，`Taher Elgamal <https://en.wikipedia.org/wiki/Taher_Elgamal>`_  (at Netscape)开发了 SSL (Secure Sockets Layer) 的算法，HTTPS 就是封装在 SSL 内部的HTTP，引入了一个新的实体 Certificate Authority .
+* 199x,  S-HTTP,  Spyglass公司， 在 HTTP 协议内部的加密,  没有成气候。 
+* 1999,  Transport Layer Security 1.0 发布， 取代 SSL 
 
 现状
 ---------------------
