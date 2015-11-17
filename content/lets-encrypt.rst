@@ -1,4 +1,4 @@
-什么是 Let's Encrypt 
+Let's Encrypt Now !
 ========================
 
 
@@ -6,6 +6,8 @@ HTTPS 的历史
 --------------
 这里 *https* 泛指访问 https://exmaple.com 这个样的网站的时候加密算法和协议。 
 
+* 1994年，`Taher Elgamal <https://en.wikipedia.org/wiki/Taher_Elgamal>`_  (at Netscape)开发了 SSL (Secure Sockets Layer) 的算法，HTTPS 就是封装在 SSL 内部的HTTP 。
+* 199x,  S-HTTP,  Spyglass公司， 在 HTTP 协议内部的加密  
 
 现状
 ---------------------
@@ -27,6 +29,7 @@ EFF / Mozilla /
 
 操作步骤
 ---------------------------
+
 
 
 ref: https://www.quora.com/What-is-the-history-of-HTTPS
