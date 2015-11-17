@@ -12,8 +12,10 @@ HTTPS 的历史
 
 现状
 ---------------------
-HTTPS 网站的数目的比例 
-来几张图片.. 
+大约 40% 的打开的页面是 HTTPS .
+
+数据来源：`HTTP_PAGELOAD_IS_SSL firefox telemetry <https://telemetry.mozilla.org/new-pipeline/dist.html#!cumulative=0&end_date=2015-10-29&keys=__none__!__none__!__none__&max_channel_version=release%252F42&measure=HTTP_PAGELOAD_IS_SSL&min_channel_version=release%252F4&product=Firefox&sanitize=1&sort_keys=submissions&start_date=2015-10-29&table=0&trim=1&use_submission_date=0>`_ 
+
 
 原因:
 1. 价格
